@@ -1,0 +1,24 @@
+{
+  "name": "plume",
+  "version": "1.0.0",
+  "description": "Simple, extensible RPC server over HTTP",
+  "main": "plume.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plume",
+    "rpc",
+    "http",
+    "server"
+  ],
+  "author": "Brian Hammond <brian@fictorial.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graceful-fs": "~2.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "underscore": "~1.6.0",
+    "moment": "~2.5.1",
+    "uuid": "~1.4.1"
+  }
+}
